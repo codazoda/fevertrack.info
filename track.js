@@ -4,6 +4,7 @@ google.charts.setOnLoadCallback(drawChart);
 var data = {
     'default': [
         ['Timestamp', 'Temperature', 'High Fever', 'Low Fever'],
+        [monthDay(), 98.7, 103, 99.5]
     ]
 };
 
